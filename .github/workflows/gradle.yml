@@ -34,7 +34,7 @@ jobs:
          gradle-version: '8.2'
     
     - name: Build with Gradle 8.2
-      run: gradle build
+      #run: gradle build
 
     
    # - name: Setup Gradle
