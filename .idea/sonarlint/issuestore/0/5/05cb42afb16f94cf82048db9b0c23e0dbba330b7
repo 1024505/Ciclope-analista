@@ -1,0 +1,16 @@
+
+g	java:S112 "FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8û¥€‚Ð2
+…
+java:S1319"iThe type of "leerExcel" should be an interface such as "List" rather than the implementation "ArrayList".(ÀÙ¬"8ü¥€‚Ð2
+q
+java:S1104"UMake leerExcel a static final constant or non-public and provide accessors if needed.(ÀÙ¬"8ý¥€‚Ð2
+K
+java:S1444"/Make this "public static leerExcel" field final(ÀÙ¬"8ý¥€‚Ð2
+]	java:S125"<This block of commented-out lines of code should be removed.(¬â½Éùÿÿÿÿ8…¦€‚Ð2
+9
+java:S2386"Make this member "protected".(ÀÙ¬"8†¦€‚Ð2
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(˜™ª8‹¦€‚Ð2
+X	java:S125@"<This block of commented-out lines of code should be removed.(‰ÎàŽ8ÖÌ€‚Ð2
+j
+java:S1128"MRemove this unused import 'co.com.exceptions.NoRegistrarHoraDiaMayor24Horas'.(ûñ½Ò8×Ì€‚Ð2
