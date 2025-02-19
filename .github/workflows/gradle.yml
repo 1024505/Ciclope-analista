@@ -31,11 +31,11 @@ jobs:
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
       with:
-         gradle-version: '8.2'
+         gradle-version: '7.5.1'
     
-    - name: Build with Gradle 8.2
+    - name: Build with Gradle 7.5.1
     
-      run: ./gradlew test --tests co.com.runners.LoginRunner --warning-mode all
+      run: ./gradle test --tests co.com.runners.LoginRunner --warning-mode all
       #run: ./gradlew build --warning-mode all
 
     
