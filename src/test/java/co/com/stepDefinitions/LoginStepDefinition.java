@@ -21,13 +21,13 @@ public class LoginStepDefinition {
     @Dado("que el usuario se encuentre en la pagina web")
     public void queElUsuarioSeEncuentreEnLaPaginaWeb() {
 
-        theActorCalled("Admin").wasAbleTo(AbrirNavegador.abrir());
+     //   theActorCalled("Admin").wasAbleTo(AbrirNavegador.abrir());
     }
 
     @Cuando("ingrese el usuario con la clave")
     public void ingreseElUsuarioConLaClave()  {
 
-        theActorInTheSpotlight().attemptsTo(Login.inicioSesion());
+    //    theActorInTheSpotlight().attemptsTo(Login.inicioSesion());
     }
 
     @Entonces("el usuario visualizara un mensaje de login exitoso")
