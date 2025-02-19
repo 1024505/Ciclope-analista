@@ -35,7 +35,7 @@ jobs:
     
     - name: Build with Gradle 7.5.1
     
-      run: ./gradle test --tests co.com.runners.LoginRunner --warning-mode all
+      run: gradle test --tests co.com.runners.LoginRunner
       #run: ./gradlew build --warning-mode all
 
     
